@@ -26,8 +26,6 @@ def pipeline(x_train, x_test, y_train, y_test, scaler, imputer, oversampling, VI
         x_train, x_test = MeanImputerFunction(x_train, x_test)
     elif imputer =='median':
         x_train, x_test = MedianImputerFunction(x_train, x_test)
-    elif imputer =='none':
-        pass
 
     if oversampling =='smote':
         x_train, y_train = SMOTEFunction(x_train, y_train)
