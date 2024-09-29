@@ -5,4 +5,4 @@ The best model was the Random Forest with class weights, using Random oversampli
 
 The project provided valuable knowledge about imbalanced classification and missing data handling.
 
-The pipelines.py module includes the necessary preprocessing steps and can be used to make the code clean and allow for testing of many different combinations.
+The pipelines.py module includes the necessary preprocessing steps and can be used to make the code clean and allows for testing of many different combinations.
